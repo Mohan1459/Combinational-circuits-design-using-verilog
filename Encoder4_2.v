@@ -21,6 +21,9 @@ module enc_4_2(
         y[0]<=1'b1;
         y[1]<=1'b1;
       end
+      default:begin
+        y<=2'b00;
+      end
     endcase
   end
 endmodule
