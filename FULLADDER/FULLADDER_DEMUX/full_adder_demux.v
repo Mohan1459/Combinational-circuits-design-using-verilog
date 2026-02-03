@@ -1,7 +1,7 @@
 module demux_1_8(
   input I,
   input [2:0]s,
-  output reg [7:0]y
+  output reg [7:0]y,
   output sum,
   output carry
 );
